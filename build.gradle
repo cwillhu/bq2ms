@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'org.ccbhms'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform('com.google.cloud:libraries-bom:24.0.0')
+    implementation 'com.google.cloud:google-cloud-bigquery'
+    implementation 'com.google.cloud:google-cloud-storage'
+
+    implementation 'com.microsoft.sqlserver:mssql-jdbc:9.4.0.jre11'
+
+    implementation group: 'info.picocli', name: 'picocli', version: '4.6.2'
+    implementation 'commons-io:commons-io:2.11.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}

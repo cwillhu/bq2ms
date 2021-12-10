@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Main-Class: org.hmsccb.bq2ms.Main
+Class-Path: opencensus-contrib-http-util-0.28.0.jar javax.annotation-api
+ -1.3.2.jar jsr305-3.0.2.jar guava-31.0.1-jre.jar gax-httpjson-0.91.1.ja
+ r protobuf-java-3.18.1.jar j2objc-annotations-1.3.jar google-cloud-core
+ -http-2.2.0.jar google-oauth-client-1.32.1.jar gson-2.8.8.jar google-ap
+ i-services-bigquery-v2-rev20211017-1.32.1.jar jackson-core-2.13.0.jar g
+ oogle-http-client-apache-v2-1.40.1.jar auto-value-annotations-1.8.2.jar
+  api-common-2.0.5.jar commons-io-2.11.0.jar commons-codec-1.15.jar comm
+ ons-logging-1.2.jar httpcore-4.4.14.jar grpc-context-1.41.0.jar google-
+ cloud-bigquery-2.3.3.jar proto-google-common-protos-2.6.0.jar threetenb
+ p-1.5.1.jar google-auth-library-oauth2-http-1.2.1.jar httpclient-4.5.13
+ .jar protobuf-java-util-3.18.1.jar checker-compat-qual-2.5.5.jar google
+ -http-client-gson-1.40.1.jar proto-google-iam-v1-1.1.6.jar google-http-
+ client-jackson2-1.40.1.jar mssql-jdbc-9.4.0.jre11.jar gax-2.6.1.jar goo
+ gle-auth-library-credentials-1.2.1.jar google-cloud-core-2.2.0.jar fail
+ ureaccess-1.0.1.jar google-cloud-storage-2.1.9.jar picocli-4.6.2.jar go
+ ogle-api-services-storage-v1-rev20210918-1.32.1.jar error_prone_annotat
+ ions-2.9.0.jar google-http-client-1.40.1.jar checker-qual-3.12.0.jar go
+ ogle-http-client-appengine-1.40.1.jar google-api-client-1.32.2.jar open
+ census-api-0.28.0.jar listenablefuture-9999.0-empty-to-avoid-conflict-w
+ ith-guava.jar
+
