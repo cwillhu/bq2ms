@@ -11,7 +11,7 @@ import java.util.List;
 public class SqlServer {
 
     public static final String connectionUrl =
-	"jdbc:sqlserver://localhost;database=PublicDatasets";
+	"jdbc:sqlserver://localhost:1433;database=PublicDatasets";
 
     public void executeSqlList(List<String> sqlList) throws Exception {
         for (String s: sqlList) {
